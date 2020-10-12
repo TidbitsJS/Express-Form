@@ -1,4 +1,13 @@
-<h1>Hello from <%= message %></h1>
-<form action="/logout?_method=DELETE" method="POST">
-  <button type="submit">LogOut</button>
-</form>
+<html>
+  <head>
+    <link href="/css/index.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="index-container">
+      <h1>Hello <%= message %></h1>
+      <form action="/logout?_method=DELETE" method="POST">
+        <button type="submit">LogOut</button>
+      </form>
+    </div>
+  </body>
+</html>
