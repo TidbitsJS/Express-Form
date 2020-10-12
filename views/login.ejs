@@ -3,6 +3,7 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <% if (messages.error) { %> <%= messages.error %> <% } %>
     <div class="container">
       <h1>Welcome Back</h1>
       <div class="form-container">
